@@ -123,38 +123,182 @@
         <p class="text-center items-center text-lg pt-10 pb-20">Yes, you can run unit tests and view the results
             directly within the app. The integrated testing features allow for a streamlined.</p>
 
+        <!-- Greenline Paribagan & seat left Section -->
         <section class="container lg:mx-auto max-w-[1170px] rounded-2xl my-12 px-3 lg:p-0 bg-white">
-            <div class="p-14 flex items-center justify-between">
-                <div class="flex gap-5">
-                    <img src="images/bus-logo.png" alt="">
-                    <div>
-                        <h1 class="font-bold text-3xl">Greenline Paribahan</h1>
-                        <p class="text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div>
+                    <div class="p-14 flex gap-5 flex-col lg:flex-row items-center justify-between">
+                        <div class="flex gap-5">
+                            <img src="images/bus-logo.png" alt="">
+                            <div>
+                                <h1 class="font-bold text-2xl lg:text-3xl">Greenline Paribahan</h1>
+                                <p class="text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#1DD10026] border rounded-2xl flex gap-3 justify-end items-center p-3">
+                                <img src="images/seat-green.png" alt="">
+                                <p class="text-center text-[#1DD100] font-medium text-lg">40 Seats left</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#F7F8F8] rounded-3xl m-10 p-8">
+                        <div class="flex justify-between mb-7">
+                            <p class="text-[#03071299] font-semibold text-lg">Route</p>
+                            <p class="font-semibold text-lg">Dhaka - Sylhet</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between mb-7 mt-7">
+                            <p class="text-[#03071299] font-semibold text-lg">Departure Time</p>
+                            <p class="font-semibold text-lg">9:00 PM</p>
+                        </div>
+                        <hr>
+                        <div class="flex flex-col lg:flex-row gap-4 justify-between pt-6">
+                            <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Boarding
+                                Point
+                                - Laxmipur</div>
+                            <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Dropping
+                                Point - Bogura
+                            </div>
+                            <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Est. Time -
+                                11 Hour
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="border rounded-2xl flex gap-3 justify-end items-center px-7">
-                        <img src="images/seat-green.png" alt="">
-                        <p class="text-center">40 Seats left</p>
-                    </div>
+                <div class="flex flex-col text-center items-center pr-10">
+                    <img class="h-12 w-12" src="images/fare.png" alt="">
+                    <h2 class="font-bold text-3xl">550 Taka</h2>
+                    <p class="font-semibold text-2xl text-[#03071299]">Per Seat</p>
                 </div>
             </div>
+        </section>
 
-            <div class="bg-[#F7F8F8] p-8">
-                <div class="flex justify-between mb-7">
-                    <p class="text-[#03071299] font-semibold text-lg">Route</p>
-                    <p class="font-semibold text-lg">Dhaka - Sylhet</p>
+        <!-- Select your seat section -->
+        <section class="container lg:mx-auto max-w-[1170px] rounded-2xl my-12 px-3 lg:p-0 bg-white">
+
+            <div class="flex flex-col lg:flex-row">
+                <!-- Select your seat: 1 -->
+                <div class="p-8 space-y-8">
+                    <h1 class="font-semibold text-2xl">Select Your Seat</h1>
+                    <hr>
+                    <div class="flex justify-between">
+                        <div class="flex gap-3">
+                            <img src="images/seat-gray.png" alt="">
+                            <h4 class="font-medium text-lg text-[#03071280]">Available</h4>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="images/seat-green-filled.png" alt="">
+                            <h4 class="text-[#1DD100] font-medium text-lg">Selected</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex justify-end">
+                        <kbd class="kbd kbd-lg">
+                            <img class="px-4 py-2" src="images/wheel.png" alt="">
+                        </kbd>
+                    </div>
+                    <!-- Seats -->
+                    <div class="flex gap-20 justify-between">
+                        <div class="flex gap-5">
+                            <div class="flex flex-col gap-[41px] my-1 pt-[12px] font-semibold text-[#03071280] text-lg">
+                                <kbd>A</kbd>
+                                <kbd>B</kbd>
+                                <kbd>C</kbd>
+                                <kbd>D</kbd>
+                                <kbd>E</kbd>
+                                <kbd>F</kbd>
+                                <kbd>G</kbd>
+                                <kbd>H</kbd>
+                                <kbd>I</kbd>
+                                <kbd>J</kbd>
+                            </div>
+                            <div class="flex flex-col gap-6 my-1 w-full font-semibold text-[#03071280]">
+                                <kbd class="kbd kbd-lg lg:px-11 lg:py-2">A1</kbd>
+                                <kbd class="kbd kbd-lg">B1</kbd>
+                                <kbd class="kbd kbd-lg">C1</kbd>
+                                <kbd class="kbd kbd-lg">D1</kbd>
+                                <kbd class="kbd kbd-lg">E1</kbd>
+                                <kbd class="kbd kbd-lg">F1</kbd>
+                                <kbd class="kbd kbd-lg">G1</kbd>
+                                <kbd class="kbd kbd-lg">H1</kbd>
+                                <kbd class="kbd kbd-lg">I1</kbd>
+                                <kbd class="kbd kbd-lg">J1</kbd>
+                            </div>
+                            <div class="flex flex-col gap-6 my-1 w-full font-semibold text-[#03071280]">
+                                <kbd class="kbd kbd-lg lg:px-11 lg:py-2">A1</kbd>
+                                <kbd class="kbd kbd-lg">B1</kbd>
+                                <kbd class="kbd kbd-lg">C1</kbd>
+                                <kbd class="kbd kbd-lg">D1</kbd>
+                                <kbd class="kbd kbd-lg">E1</kbd>
+                                <kbd class="kbd kbd-lg">F1</kbd>
+                                <kbd class="kbd kbd-lg">G1</kbd>
+                                <kbd class="kbd kbd-lg">H1</kbd>
+                                <kbd class="kbd kbd-lg">I1</kbd>
+                                <kbd class="kbd kbd-lg">J1</kbd>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="flex flex-col gap-6 my-1 w-full font-semibold text-[#03071280]">
+                                <kbd class="kbd kbd-lg lg:px-11 lg:py-2">A1</kbd>
+                                <kbd class="kbd kbd-lg">B1</kbd>
+                                <kbd class="kbd kbd-lg">C1</kbd>
+                                <kbd class="kbd kbd-lg">D1</kbd>
+                                <kbd class="kbd kbd-lg">E1</kbd>
+                                <kbd class="kbd kbd-lg">F1</kbd>
+                                <kbd class="kbd kbd-lg">G1</kbd>
+                                <kbd class="kbd kbd-lg">H1</kbd>
+                                <kbd class="kbd kbd-lg">I1</kbd>
+                                <kbd class="kbd kbd-lg">J1</kbd>
+                            </div>
+                            <div class="flex flex-col gap-6 my-1 w-full font-semibold text-[#03071280]">
+                                <kbd class="kbd kbd-lg lg:px-11 lg:py-2">A1</kbd>
+                                <kbd class="kbd kbd-lg">B1</kbd>
+                                <kbd class="kbd kbd-lg">C1</kbd>
+                                <kbd class="kbd kbd-lg">D1</kbd>
+                                <kbd class="kbd kbd-lg">E1</kbd>
+                                <kbd class="kbd kbd-lg">F1</kbd>
+                                <kbd class="kbd kbd-lg">G1</kbd>
+                                <kbd class="kbd kbd-lg">H1</kbd>
+                                <kbd class="kbd kbd-lg">I1</kbd>
+                                <kbd class="kbd kbd-lg">J1</kbd>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <hr>
-                <div class="flex justify-between mb-7 mt-7">
-                    <p class="text-[#03071299] font-semibold text-lg">Departure Time</p>
-                    <p class="font-semibold text-lg">9:00 PM</p>
-                </div>
-                <hr>
-                <div class="flex gap-4 justify-between">
-                    <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Boarding Point - Laxmipur</div>
-                    <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Boarding Point - Laxmipur</div>
-                    <div class="border rounded-2xl text-center py-4 bg-[#0307120D] font-medium px-8">Boarding Point - Laxmipur</div>
+                <!-- Select your seat: 2 -->
+                <div class="p-8 space-y-8 w-full">
+                    <h1 class="font-semibold text-2xl">Select Your Seat</h1>
+                    <hr>
+                    <div class="bg-[#F7F8F8] rounded-3xl p-12 space-y-5">
+                        <div class="flex justify-between text-black font-medium text-base">
+                            <div class="flex gap-2">
+                                <p>Seat</p>
+                                <span class="text-white bg-[#1DD100] px-2 rounded-lg">2</span>
+                            </div>
+                            <p>Class</p>
+                            <p>Price</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between text-[#03071299]">
+                            <span></span>
+                            <p class="ml-8">Economy</p>
+                            <p>550</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between text-black font-medium text-base">
+                            <p>Total Price</p>
+                            <p>BDT <span></span></p>
+                        </div>
+                        <label class="input input-bordered flex items-center gap-2 p-7">
+                            <input type="text" class="grow" placeholder="Have any coupon?"/>
+                            <button class="btn bg-[#1DD100] text-white font-semibold">Apply</button>
+                        </label>
+                        <div class="flex justify-between text-black font-medium text-base">
+                            <p>Grand Total</p>
+                            <p>BDT <span></span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
